@@ -40,7 +40,7 @@ Lemmatization algorithm would know that the word better is derived from the word
 
 CountVectorizer is a great tool provided by the scikit-learn library in Python. It is used to transform a given text into a vector on the basis of the frequency(count) of each word that occurs in the entire text.
 
-## TF_IDF or ( Term Frequency(TF) — Inverse Dense Frequency(IDF))
+## TF_IDF or ( Term Frequency(TF) — Inverse Document Frequency(IDF))
 
 TF-IDF is a statistical measure that evaluates how relevant a word is to a document in a collection of documents.<br>
 This is done by multiplying two metrics: how many times a word appears in a document, and the inverse document frequency of the word across a set of documents.
